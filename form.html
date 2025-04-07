@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <ul class="nav">
+    <li><a href="/">Home</a></li>
+    <li><a href="table.html">table</a></li>
+    <li><a href="video.html">video</a></li>
+    <li><a href="form.html">form</a></li>
+  </ul>
+  <form action="">
+    <fieldset>
+      <legend>로그인</legend>
+      <div>
+        <label for="id">아이디(6자 이상): </label>
+        <input type="test" id="id" size="50" value="" maxlength="10" readonly/>
+      </div>
+      <div>
+        <label for="password"> 비밀번호</label>
+        <input type="password" name="" id="password" required />
+      </div>
+      <input type="submit" value="로그인" />
+      <input type="reset" value="취소" />
+    </fieldset>
+    <fieldset>
+  
+  
+      <legend>상품 선택</legend>
+      <p><b>주문할 상품을 선택해 주세요.</b></p>
+      <label><input type ="checkbox" value="s_3"> 선물용 3kg</label>
+      <label><input type ="checkbox" value="s_5"> 선물용 5kg</label>
+      <label><input type ="checkbox" value="f_5"> 가정용 3kg</label>
+      <label><input type = "checkbox" value="f_3"> 가정용 5kg </label>
+      <p><b>포장 선택</b></p>
+      <label><input type ="radio" name="gift" value="yes"> 선물포장</label>
+      <label><input type ="radio" name="gift" value="no"> 선물 포장 안 함</label>
+  <br>
+      Search - <input type="search" name="" id="" placeholder="검색하세요"/>
+      URL - <input type="url" name="" id="" />
+      Email - <input type="tel" name="" id="" />
+    <br>
+      <label for="s-1"> 선물용 3kg</label>
+      <input type="radio" checked name="gift" id="s-1" value="3"/> 
+      <label for="s-2">선물용 5kg</label>
+      <input type="radio" name="gift" id="s-2" value="5"/> 
+      <label for="s-2">선물용 6kg</label>
+      <input type="radio" name="gift" id="s-2" value="5"/> 
+    <br />
+    <input type="checkbox" checked="h-1" value="3"/> 
+      <label for="h-1">가정용 3kg</label>
+      <input type="checkbox" id="h-2" value="5"/> 
+      <label for="h-2">가정용 5kg</label>
+      <input type="checkbox" id="h-3" value="3"/> 
+      <label for="h-3">가정용 6kg</label>
+  
+      Number - <input type="number" name="" id="" value="1" min="0"/><br />
+      Range - <input type="range" name="" id="" min="0" max="10" step="2"/><br />
+      <input type="date" name="" id="" /> <br />
+      <input type="month" name="" id="" /> <br />
+      <input type="week" name="" id="" /> <br />
+      <input type="time" name="" id="" /> <br />
+      <input type="button" value="semantic" onclick= "window.open('semantic.html')"/>
+      <button> onclick="window open"></button>
+      <input type="file" name="" id="">
+      
+      <div>
+          <input type="submit" value="주문하기"/>
+          <input type="reset" value="취소하기"/>
+      </div>
+  </fieldset>
+    </fieldset>
+  </form>
+</body>
+</html>
